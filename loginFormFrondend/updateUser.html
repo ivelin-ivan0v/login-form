@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+
+    <header>
+        <h1>Login Form Project</h1>
+    </header>
+    
+    <!-- <form id="registrationForm">
+        <h1>Update User Info</h1>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br>
+
+        <button type="button" onclick="updateUser()">Update</button>
+    </form> -->
+
+
+    <form id="registrationForm"">
+        <h1>Update User Info</h1>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+        <span id="firstNameError" class="error"></span><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+        <span id="lastNameError" class="error"></span><br>
+
+        <button type="button" onclick="updateUser()">Update</button>
+    </form>
+
+    <script src="scripts/updateUser.js"></script>
+</body>
+</html>
